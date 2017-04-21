@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+    <form action="" method="post">
+    	{{request.user.username}}
+    	{% csrf_token %}
+        username:<input type="text"  name="account"><br/>
+        password:<input type="password" name="password"><br/>
+        <input type="submit" name="">
+    </form>
+    
+</body>
+</html>
